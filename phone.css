@@ -1,0 +1,219 @@
+#header{
+    width: 100%;
+}
+#header nav div {
+    height: 10vh;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+#header img {
+    width: 27%;
+    padding: 5px 25px 0 0px;
+}
+#signup {
+    width: 35%;
+}
+#signup select {
+    padding: 5px;
+    font-size: 14px;
+    margin: 40px;
+    border-radius: 0;
+}
+#signup .btn {
+    padding: 1px 27px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#header .content {
+    width: 90%;
+    position: absolute;
+    left: 6%;
+    top: 28%;
+}
+.accordion {
+    width: 95%;
+}
+.content h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+.content h3 {
+    font-size: 18px;
+}
+.content p {
+    font-size: 18px;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email input {
+    width: 100%;
+    padding: 10px;
+}
+.email button {
+    width: 35%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#enjoy {
+    flex-direction: column;
+    justify-content: center;
+}
+#enjoy .text {
+    width: 90%;
+    margin: 0;
+    padding: 10px 18px 0 10px;
+}
+#enjoy .text p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+#enjoy .text h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.video {
+    text-align: center;
+}
+.video img {
+    width: 80%;
+}
+.video video {
+    width: 57%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#mobile-sec {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+#mobile-sec .text {
+    width: 95%;
+    margin: 0;
+    padding: 10px;
+}
+
+#mobile-sec .text h1 {
+        font-size: 22px;
+        text-align: center;
+        padding: 6px;
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+
+#mobile-sec .text p {
+    width: 100%;
+        line-height: 20px;
+        font-size: 16px;
+        text-align: center;
+}
+.mobile img {
+    width: 85%;
+    padding-left: 10px;
+}
+#mobile-sec .download {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 200%;
+    left: 15%;
+}
+.download img {
+    width: 10%;
+    padding: 2px;
+}
+.name p {
+    font-size: 0.9rem;
+}
+
+#question h2 {
+    font-size: 24px;
+}
+.ques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+#content {
+    width: 100%;
+}
+#content p {
+    font-size: 1.3rem;
+    padding: 20px;
+}
+#mail {
+    margin: 60px 0;
+    width: 100%;
+}
+#mail p {
+    padding: 0 50px;
+}
+#email1 {
+    flex-direction: column;
+}
+#email1 input {
+    width: 90%;
+    padding: 15px;
+    margin: 0px 30px;
+}
+#email1 .button {
+    width: 32%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    top: 0;
+}
+.ques button {
+    width: 97%;
+    padding: 15px;
+    border: 0;
+    font-size: 1.6rem;
+}
+
+footer .col {
+    padding: 40px 20px 0 20px;
+    height: 110vh;
+}
+footer p {
+    padding: 10px ;
+    margin-left: 0;
+    font-weight: 600;
+}
+footer .links {
+    justify-content: center;
+    padding: 10px 0%;
+    width: 99%;
+    margin-left: 5px;
+}
+.links ul li {
+    /* vertical-align: text-bottom;
+    display: inline-block; */
+    width: 33%;
+    /* margin: 0; */
+}
+#language select {
+    padding: 10px 15px;
+    margin-left: 5%;
+}
+.teco {
+    margin-top: 25px;
+    font-weight: 500;
+    margin-left: 3%;
+}

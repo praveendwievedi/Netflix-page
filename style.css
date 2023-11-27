@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom:8px solid #222 ;
+}
+#header img{
+    width: 15%;
+    padding:5px 10px 0 60px;
+    cursor: pointer;
+}
+#header nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#signup{
+    width: 17%;
+    margin-right: 50px;
+}
+#signup select{
+    padding: 10px;
+    font-size: 14px;
+    font-weight:600;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+#signup .btn{
+    padding: 10px 20px;
+    background-color: #FF0000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:sans-serif;
+    color: #fff;
+    border:0 ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#header .content{
+    width: 50%;
+    height: 50vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #fff;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    text-align: center;
+}
+.content h3{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 300;
+    text-align: center;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+        text-align: center;
+}
+.email{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email input{
+    width: 70%;
+    padding: 20px;
+    outline: 0;
+    font-size: 20px;
+}
+.email button{
+    width: 30%;
+    padding: 20px;
+    font-size: 22px;
+    color: #fff;
+    background: #FF0000;
+    border: 0;
+    cursor: pointer;
+}
+
+/* enjoy section */
+#enjoy{
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-bottom: 8px solid #222;
+}
+#enjoy .text{
+    width: 40%;
+    margin: 0 40px 0 80px ;
+    padding: 10px 40px 20px 10px ;
+}
+#enjoy .text h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 0;
+}
+#enjoy .text p{
+    width: 100%;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.video{
+position: relative;
+}
+.video img{
+    width: 80%;
+}
+.video video{
+    width: 59%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border: 4px solid #222;
+}
+#mobile-sec{
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 8px solid #222;
+}
+.mobile{
+    margin-left: 50px;
+}
+.mobile img{
+    width: 80%;
+    padding-left:70px ;
+}
+#mobile-sec .text {
+    width: 40%;
+    margin: 0 20px 0 60px;
+    padding: 10px 40px 20px 0;
+}
+
+#mobile-sec .text h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 0;
+}
+
+#mobile-sec .text p {
+    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+#mobile-sec .download{
+    width: 25%;
+    border: 3px solid #222;
+    border-radius: 10px;
+    position: absolute;
+    top: 200%;
+    left: 10%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download img{
+    width: 10%;
+    padding: 10px;  
+}
+.name p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+.name span{
+    color: #0077b6;
+    font-family: sans-serif;
+}
+.gif{
+    width: 40%;
+    background: url('img/download.gif') center/cover no-repeat;
+}
+.desktop{
+    position: relative;
+}
+.desktop video{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    border: 4px solid #222;
+    border: 0;
+}
+/* Question Section */
+#question{
+    background: #000;
+    color: #fff;
+    border-bottom: 8px solid #222;
+}
+.ques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin-bottom: 80px;
+}
+#question h2 {
+    padding: 10px 0 10px 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.accordion{
+    width: 50%;
+}
+.accordion-item {
+    background-color: #222;
+    margin-bottom: 10px;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: left;
+    background-color: #222;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+.accordion-button::after {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("./img/icons8-plus-math-50.png");
+    background-repeat: no-repeat;
+    background-size: 2.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url("./img/icons8-multiply-50.png");
+    transform: rotate(0);
+}
+.accordion-button:not(.collapsed) {
+    background-color: #222;
+    color: #fff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+.accordion-body {
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    font-weight: 200;
+    background: #222;
+}
+
+/* 
+    .ques button {
+        width: 50%;
+        padding: 20px;
+        margin-top: 12px;
+        font-size: 2rem;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
+        background: #222;
+        color: #DFDFDE;
+        cursor: pointer;
+    }
+    #content {
+        width: 50%;
+    }
+
+#content p{
+        font-size: 1.6rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 40px;
+        background: #222;
+        display: none;
+    } */
+
+    #mail{
+        margin: 60px 0;
+        width: 100%;
+    }
+    #mail p{
+        text-align: center;
+        font-size:18px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#email1 {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#email1 input {
+    width: 70%;
+    padding: 20px;
+    outline: 0;
+    font-size: 20px;
+}
+
+#email1 .button {
+    width: 30%;
+    padding: 21px;
+    font-size: 22px;
+    color: #fff;
+    background: #FF0000;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+/* footer */
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    height: 70vh;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 60px 0 60px;
+}
+footer p{
+    padding: 15px 10px ;
+    margin-left: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+}
+footer p a{
+    color: #222;
+    text-decoration: none;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+ul.structural {
+    margin: 0;
+    padding: 0;
+}
+footer .links{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 850px;
+}
+ul.structural>li {
+    list-style: none;
+    margin-left: 0;
+}
+
+.links ul li{
+        box-sizing: border-box;
+            display: inline-block;
+            margin-bottom: 16px;
+            min-width: 100px;
+            padding: 0 12px 0 0;
+            vertical-align: top;
+            width: 25%;
+} 
+
+footer .links a{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #DFDFDE;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+footer .links a:hover{
+    text-decoration: underline;
+}
+#language select {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left:19%;
+}
+.teco{
+    font-size: 16px;
+    margin-top: 12px;
+    font-family:sans-serif ;
+    margin-left: 18%;
+}
